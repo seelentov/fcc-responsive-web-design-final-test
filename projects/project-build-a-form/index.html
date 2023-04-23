@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/x-icon" href="images/favicon.ico">
+  <title>Document</title>
+</head>
+<body> 
+  <main>
+    <div class="header">
+      
+      <h2>ПОЛУЧИ СУПЕРСПОСОБНОСТИ</h2>
+      <h1>УЖЕ СЕЙЧАС</h1>
+    </div>
+    <form action='' class="anketa">
+      <p>Заполни анкету на нашем сайте и станьте первым из тех, 
+        кто испробует наш новые технологии</p>
+      <fieldset class="anketatop">
+        <label for="name"><h3>Имя</h3><input required id='name' type="text"></label>
+        <label for="age"><h3>Возраст</h3><input id='age' type="number" max="120" min="18"></label>
+        <label for="email"><h3>E-mail</h3><input id='email' type="email"></label>
+        <label for="number"><h3>Номер телефона</h3><input pattern="+79029384032" id='number' type="number" ></label>
+      </fieldset>
+      <hr>
+      <fieldset class="anketamid">
+        <h3>Какую способность ты выберешь?</h3>
+        <table class="superpower">
+        <tbody>
+          <tr>
+            <td><label for="super1"><input value='super1' id="super1" type="radio" name="super" class="inline" />Суперсила</label>
+            </td>
+            <td><label for="super1"><input value='super2' id="super2" type="radio" name="super" class="inline" />Суперскорость</label></td>
+          </tr>
+          <tr>
+            <td><label for="super1"><input value='super3' id="super3" type="radio" name="super" class="inline" />Суперинтеллект</label></td>
+            <td><label for="super1"><input value='super4' id="super4" type="radio" name="super" class="inline" />Что-то свое</label></td>
+          </tr>
+        </tbody>
+      </table></fieldset>
+      <hr>
+      <fieldset class="anketabot">
+        <h3>Насколько Вы хотите приобрести новую супер-способность?</h3>
+        <textarea required id="bio" name="bio" rows="3" cols="30"></textarea></textarea>
+      </fieldset>
+      <fieldset class="submit">
+      <input type="submit" value="Submit" />
+      <p><label for="policy"><input required type="checkbox" id="policy">Отправляя данную форму вы соглашаетесь с политикой конфиденциальности</label></p>
+    </fieldset>
+    </form>
+    <form action='' style="margin-top: 127px;">
+      <label for="yes">Готовы ли Вы к непредвиденным последствиям?
+      <select id="yes" name="yes" required>
+        <option name='yes' value="yes1">Да, конечно!</option>
+        <option name='yes' value="yes1">Чтоо?? О чем вы?</option>
+      </select>
+      </label>
+    </form>
+  </main>
+</body>
+</html>

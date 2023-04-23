@@ -1,0 +1,185 @@
+.mainpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #31be6e ;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #eeeeee;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  z-index: 9999;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainpage:hover{
+  background-color: #000000 ;
+  transition: 0.3s 0s ease-in-out;
+}
+
+.mainpage:active{
+  background-color: #ffffff ;
+}
+
+main{
+  padding-top: 20px;
+  margin-top: -10px;
+  background-image: url(background.jpg);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.header{
+  background-color: rgba(48, 1, 93, 0.522);
+  margin: 0 auto;
+  width: 738px;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  padding-bottom: 0px;
+  padding-top: 2px;
+  border-radius: 40px;
+  box-shadow: 0 0 15rem 0 rgba(41, 39, 39, 0.2);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 52px;
+}
+
+.header h2{
+  font-size: 31px;
+}
+.header h1{
+  font-size: 79px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.anketa{
+  background-color: rgba(48, 1, 93, 0.522);
+  margin: 0 auto;
+  padding-right: 10px;
+  width: 671px;
+  font-size: 20px;
+  color:white;
+  padding-bottom: 0;
+  padding-top: 2px;
+  border-radius: 40px;
+  padding: 33px;
+  box-shadow: 0 0 1rem 0 rgba(41, 39, 39, 0.2);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.anketa p{
+  font-size: 24px;
+  text-align: left;
+  margin: 29px;
+}
+.anketa h3{
+  text-align: left;
+  margin-left:20px;
+  margin-bottom: 9px;
+  margin-top: 20px;
+}
+.anketatop input{
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: -20px auto;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #62618e9e;
+  color: #fff;
+}
+fieldset{
+  border: 0;
+}
+.superpower{
+  font-size: 31px;
+  margin: 0 auto;
+}
+.inline{
+  transform: scale(1.8);
+  margin: 0 38px;
+}
+.anketamid h3{
+  font-size: 25px;
+  margin-bottom: 13px;
+}
+.anketabot h3{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 27px;
+  margin-top: 20px;
+}
+.anketabot textarea{
+  width: 100%;
+  height: -9px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 25px;
+  background-color: #62618e9e;
+  color: #fff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 1em auto;
+  height: 4em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: #8786b6;
+  min-width: 178px;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+}
+
+input[type="checkbox" i]{
+  margin-right: 16px;
+  transform: scale(1.8);
+}
+
+.submit p{
+  text-align: center;
+  font-size: 16px;
+}
+
+.submit label{
+  margin: 0 auto;
+}
+
+input::placeholder{
+  color:#fff
+}
+
+hr{
+  background-color: #b9b7ff9e;
+  width: 678px;
+  height: 5px;
+  border: black;
+  border-radius: 20px;
+  margin: 41px 0;
+}
+
+@media (max-width: 790px){
+  * {
+  zoom: 0.9;
+
+}
+
+}
+@media (max-width: 488px){
+  * {
+  zoom: 0.8;
+
+}
+
+}
